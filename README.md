@@ -52,7 +52,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Coming next
 
-- [ ] Docker configuration
+- [ ] Unit tests on client component
 - [ ] Mail configuration
 - [ ] Analytics
+- [ ] Docker configuration
+- [ ] E2E tests
 - [ ] Content management
