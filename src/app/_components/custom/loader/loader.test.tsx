@@ -6,8 +6,10 @@ it("renders loader component", async () => {
   const { findByTestId } = render(<Loader />);
 
   findByTestId("loader").then((element) => {
-    expect(element).exist;
+    void expect(element).exist;
 
-    expect(element.className).toBe("flex justify-center items-center h-screen");
+    void expect(element.className).toBe(
+      "flex justify-center items-center h-screen",
+    );
   });
 });

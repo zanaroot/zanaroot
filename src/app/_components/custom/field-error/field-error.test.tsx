@@ -38,8 +38,8 @@ it("renders empty when field is untouched and has no errors", () => {
   );
 
   findByTestId("field-error").then((errorElement) => {
-    expect(errorElement).exist;
-    expect(errorElement).empty;
+    void expect(errorElement).exist;
+    void expect(errorElement).empty;
   });
 });
 
@@ -54,11 +54,11 @@ it("displays error message when field is touched and has errors", () => {
   );
 
   findByTestId("field-error").then((errorElement) => {
-    expect(errorElement).exist;
+    void expect(errorElement).exist;
   });
 
   findByText(errorMessage).then((messageElement) => {
-    expect(messageElement.innerText).toBe(errorMessage);
+    void expect(messageElement.innerText).toBe(errorMessage);
   });
 });
 
@@ -72,11 +72,11 @@ it("shows validating message when field is validating", () => {
   );
 
   findByTestId("field-error").then((errorElement) => {
-    expect(errorElement).exist;
+    void expect(errorElement).exist;
   });
 
   findByText("validating").then((textElement) => {
-    expect(textElement.innerText).toBe("validating");
+    void expect(textElement.innerText).toBe("validating");
   });
 });
 
@@ -91,14 +91,14 @@ it("prioritizes both when both are present", async () => {
   );
 
   findByTestId("field-error").then((errorElement) => {
-    expect(errorElement).exist;
+    void expect(errorElement).exist;
   });
 
   findByText(errorMessage).then((messageElement) => {
-    expect(messageElement.innerText).toBe(errorMessage);
+    void expect(messageElement.innerText).toBe(errorMessage);
   });
 
   findByText("validating").then((validatingTextElement) => {
-    expect(validatingTextElement.innerText).toBe("validating");
+    void expect(validatingTextElement.innerText).toBe("validating");
   });
 });
