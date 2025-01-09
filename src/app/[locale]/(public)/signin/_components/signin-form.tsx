@@ -1,6 +1,6 @@
 "use client";
 
-import { Loader } from "@/app/_components/loader";
+import { Loader } from "@/app/_components/custom";
 import { Button } from "@/app/_components/ui/button";
 import {
   Card,

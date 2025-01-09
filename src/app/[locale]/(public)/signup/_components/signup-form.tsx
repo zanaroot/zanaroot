@@ -1,7 +1,6 @@
 "use client";
 
-import { FieldError } from "@/app/_components/field-error";
-import { Loader } from "@/app/_components/loader";
+import { FieldError, Loader } from "@/app/_components/custom";
 import { Button } from "@/app/_components/ui/button";
 import {
   Card,
