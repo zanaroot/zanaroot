@@ -15,6 +15,7 @@ Trying to be user friendly to Laravel developers.
 - 📦 Minio + S3 + Minio SDK
 - 📦 Postgres + Drizzle ORM
 - 🔥 Home made project structure
+- 🔥 Semantic release
 
 ## Requirements
 
@@ -34,6 +35,21 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Commit convention
+
+We use [Angular Commit Message Conventions](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format) to generate release notes.
+
+Here's the most common commit types:
+
+- `build`: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- `ci`: Changes to our CI configuration files and scripts (examples: Github Actions, SauceLabs)
+- `docs`: Documentation only changes
+- `feat`: A new feature
+- `fix`: A bug fix
+- `perf`: A code change that improves performance
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `test`: Adding missing tests or correcting existing tests
 
 ## Learn More
 
