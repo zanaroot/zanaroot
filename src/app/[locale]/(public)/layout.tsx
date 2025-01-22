@@ -32,6 +32,12 @@ const PublicLayout = async ({ children }: { children: React.ReactNode }) => {
               <Link href="/" className="text-gray-600 hover:text-gray-900">
                 {tTopbar("home")}
               </Link>
+              <Link href="/" className="text-gray-600 hover:text-gray-900">
+                Products
+              </Link>
+              <Link href="/" className="text-gray-600 hover:text-gray-900">
+                Career
+              </Link>
               <Link href="#" className="text-gray-600 hover:text-gray-900">
                 {tTopbar("contact")}
               </Link>
