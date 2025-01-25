@@ -1,2 +1,2 @@
-export { FieldError } from "./field-error/field-error";
-export { Loader } from "./loader/loader";
+export { FieldError } from "./field-error";
+export { Loader } from "./loader";
